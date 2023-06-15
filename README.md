@@ -1,3 +1,2 @@
 # Kubernetes-Integration-in-WebApp
-Blog Link
-https://sachinjoshi72.medium.com/kubernetes-integration-with-python-cgi-e9f2c7e47f7d
+Integrating Kubernetes with Python-CGI involves containerizing your Python-CGI script using Docker, deploying it to Kubernetes using deployment manifests, exposing the service through a Kubernetes Service object, and optionally using an Ingress or API Gateway for HTTP routing. However, it's worth noting that using Python frameworks like Flask or Django with Kubernetes is a more common and recommended approach for building web applications in Python, as they provide more advanced features and flexibility. Additionally, there are Kubernetes-native frameworks available for interacting with Kubernetes programmatically.
