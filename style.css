@@ -1,0 +1,125 @@
+
+
+
+	.div{
+		border:solid 2px greenyellow;
+		background-color:lightblue ;
+		height:100%;
+		margin-left:5px;
+		margin-right:5px;
+		margin-top:2px;
+		
+	}
+	
+	.loader {
+		border: 8px solid #f3f3f3;
+		/* Light grey */
+		border-top: 8px solid #3498db;
+		/* Blue */
+		border-radius: 50%;
+		width: 20px;
+		height: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		animation: spin 1s linear infinite;
+	}
+	
+	@keyframes spin {
+		0% {
+			transform: rotate(0deg);
+		}
+	
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+	
+	.newdiv{
+		border:2px blue dotted;
+		height:300px;
+		padding:190px;
+		margin:80px;
+		
+	}
+	
+	 input[type=text] {
+  width: 100%;
+  
+  box-sizing: border-box;
+	 }
+
+	 ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	  }
+	  
+	  li {
+		float: left;
+	  }
+	  
+	  li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	  }
+	  
+	  /* Change the link color to #111 (black) on hover */
+	  li a:hover {
+		background-color: #111;
+	  }
+
+
+	.footer {
+		position: relative;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 80%;
+		background-color: black;
+		color: white;
+		text-align: center;
+		
+		margin-top:5px;
+	}
+	.paragr{
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 2%;
+		color: greenyellow;
+		text-align: center;
+	}
+	.headi{
+		color: white;
+		text-align: center;
+
+	}
+
+	.divku{
+		border:solid 2px greenyellow;
+		background-color:black ;
+		height:50%;
+		margin-left:5px;
+		margin-right:5px;
+		margin-top:2px;
+	}
+
+	.divov{
+			border:solid 2px greenyellow;
+			background-color:black ;
+			height:50%;
+			margin-left:5px;
+			margin-right:5px;
+			margin-top:10px;
+			margin-bottom: 10px;
+	}
+
+	.marq{
+		font-family:courier;
+		margin-top: 5%;
+		font-weight: bolder;
+	}
